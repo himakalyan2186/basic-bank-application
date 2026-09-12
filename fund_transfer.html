@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Fund Transfer page </title>
+        <link rel="stylesheet" href="fundStyle.css">
+    </head>
+    <body>
+        <div>
+            <header class="top-bar">
+                <h2>VIT-BANK</h2>
+            </header>
+        </div>
+        <nav>
+            <a href="index.html"> Home </a>
+            <a href="#about"> About Us </a>
+            <a href="#services"> Services </a>
+            <a href="#contact">Contact Us</a>
+            <a href="logout.html"> log out </a>
+        </nav>
+        <div class="form-container">
+            <div class="fund-box">
+                <h1 class="heading"> Fund Transfer </h1>
+                <form>
+                    <div class="form-row">
+                        <label for="fromAccount"> From Account: </label>
+                        <input type="number" id="fromAccount" name="fromAccount"><br>
+                    </div>
+                    <div class="form-row">
+                        <label for="toAccount"> To Account: </label>
+                        <input type="number" id="toAccount" name="toAccount">
+                    </div>
+                    <div class="form-row">
+                        <label for="benificiary"> Benificiary Name: </label>
+                        <input type="text" id="benificiary" name="benificiary"><br>
+                    </div>
+                    <div class="form-row">
+                        <label> Transfer Type: </label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" id="neft" name="transferType"><br>
+                        <label for="neft"> NEFT </label>
+                        <input type="radio" id="imps" name="transferType">
+                        <label for="imps"> IMPS </label>
+                        <input type="radio" id="rtgs" name="transferType">
+                        <label for="rtgs"> RTGS </label>
+                    </div>
+                    <div class="form-row">
+                        <label for="amount"> Amount </label>
+                        <input type="number" id="amount" name="amount"><br>
+                    </div>
+                    <div class="form-row">
+                        <label for="remarks"> Remarks </label>
+                        <input type="text" id="remarks" name="remarks"><br>
+                    </div>
+                    <div class="form-row">
+                        <label for="tpassword"> Transaction Password: </label>
+                        <input type="password" id="tpassword" name="tpassword"><br>
+                    </div>
+                </form>
+                <button class="transfer-button"> Transfer</button>
+                <button class="back-button"> Back </button>
+            </div>
+            <div class="hero-image">
+                <img src="background_fundt.jpg" alt="Banking Image">
+            </div>
+        </div>
+    </body>
+</html>
+

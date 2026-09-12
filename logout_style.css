@@ -1,0 +1,29 @@
+.logout-container{
+    width:550px;
+    margin-top:180px;
+    margin-left:490px;
+}
+.top-bar{
+    background: linear-gradient(to right,#4f5bd5,#6a8cff);
+    color:white;
+    padding:5px 40px;
+}
+footer{
+    background:#1e3a8a;
+    color:white;
+    text-align:center;
+    padding:2px;
+    margin-top:189px;
+    height:50px;
+}
+.logout-container button{
+    padding:12px 25px;
+    border:none;
+    border-radius:8px;
+    background:#0d6efd;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    margin-left:145px;
+    margin-top: 30px;
+}
